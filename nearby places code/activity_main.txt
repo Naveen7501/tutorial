@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:hint="Enter username" />
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtusername"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+
+        />
+
+    <EditText
+        android:id="@+id/edtrepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_below="@+id/edtpassword"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Retype password" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtrepassword"
+        android:layout_marginTop="20dp"
+        android:text="Signup"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="By Signing up,you agree to our terms,Data Policy and Cookies Policy"
+    android:layout_below="@+id/btnsignup"
+        android:textSize="20dp"
+        android:id="@+id/txtsignupcondt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have an account ?"
+        android:layout_below="@+id/txtsignupcondt"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txthaveaccount"
+/>
+    <TextView
+        android:id="@+id/txtlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtsignupcondt"
+        android:text=" Log in"
+        android:textSize="20dp"
+        android:textColor="#00BCD4"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

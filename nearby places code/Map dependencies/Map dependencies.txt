@@ -1,0 +1,5 @@
+https://developers.google.com/maps/documentation/android-sdk/config
+https://github.com/Karumi/Dexter
+https://console.cloud.google.com/apis
+https://developers.google.com/android/reference/com/google/android/gms/maps/SupportMapFragment
+
